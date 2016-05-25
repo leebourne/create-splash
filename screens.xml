@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<splash>
+	<source>splash.jpg</source>
+	<fill>white</fill>
+	<!-- 
+	<transparency>#fff</transparency>	
+	-->
+	<annotations>
+		<annotation>
+			<valign>bottom</valign>
+			<align>right</align>
+			<text>Copyright 2016</text>
+			<color>black</color>
+			<!-- 
+			<font>/Library/Fonts/Courier New.ttf</font>
+			<size>24</size>
+			-->
+		</annotation>
+	</annotations>
+	<screens>
+		<screen>
+			<width>320</width>
+			<height>480</height>
+			<destination>./Default.png</destination>
+		</screen>
+		<screen>
+			<width>640</width>
+			<height>960</height>
+			<destination>./Default@2x.png</destination>
+		</screen>
+	</screens>
+</splash>
